@@ -1,13 +1,7 @@
-import { FooterContainer } from "./components/footer/container";
-import { HeaderContainer } from "./components/header/container";
-import { LayoutContainer } from "./components/layout/container";
+import { ProjectPageContainer } from "./pages/project-page/container";
 
 export const App = () => {
     return (
-        <>
-            <HeaderContainer />
-            <LayoutContainer />
-            <FooterContainer />
-        </>
+        <ProjectPageContainer />
     )
 }

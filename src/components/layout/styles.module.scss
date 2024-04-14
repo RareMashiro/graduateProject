@@ -1,0 +1,10 @@
+.layout {
+    box-sizing: inherit;
+    min-height: 85vh;
+    border-radius: 0.3em;
+    display: flex;
+}
+
+.layout > * + * {
+    margin-left: 0.75em;
+}

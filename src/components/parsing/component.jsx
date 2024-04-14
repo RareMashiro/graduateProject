@@ -1,5 +1,7 @@
+import styles from './styles.module.scss';
+
 export const Parsing = () => {
     return (
-        <>Parsing section</>
+        <div className={styles.parsing}>Parsing section</div>
     )
 }
