@@ -1,0 +1,41 @@
+.home {
+    background-color:rgb(190, 57, 248);
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.25em 0.5em;
+}
+
+.parsing {
+    background-color: rgb(255, 108, 138);
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.25em 0.5em;
+}
+
+.database {
+    background-color: rgb(198, 239, 198);
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.25em 0.5em;
+}
+
+.login {
+    background-color: gold;
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.25em 0.5em;
+}
+
+button {
+    cursor: pointer;
+    transition: box-shadow 0.1s, translate 0.1s;
+}
+
+button:hover {
+    box-shadow: 0.1em 0.1em;   
+} 
+
+button:active {
+    translate: 0.1em 0.1em;
+    box-shadow: none;
+}
