@@ -1,8 +1,18 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Веб-приложение для морфологического разбора предложения на русском языке
+Данный сервис позволяет проводить морфологический анализ предложения, менять информацию о словах в базе данных и утверждать изменения (только для администратора)
+# Приложение находится на стадии проектирования
+Перечень разрабатываемого функционала:
+1) Приложение будет иметь возможность регистрации в качестве администратора
+2) Администратор сможет вносить изменения в базу данных, подобно пользователю, и утверждать их
+3) Приложение будет проводить морфологический разбор предложения на основе рекомендательной балльно-рейтинговой системы
+4) База данных будет связываться с приложением посредством самописного сервера на Node.js
+# Стэк
+- React
+- Redux
+- Git
+- HTML
+- CSS
+- Postgresql
+- Node.js
+# Концептуальный внешний вид
+<a href="https://github.com/RareMashiro/graduateProject/blob/master/images/parsingPage.png"></a>
