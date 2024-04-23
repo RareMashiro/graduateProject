@@ -15,5 +15,7 @@
 - CSS
 - Postgresql
 - Node.js
+- Vite
+- npm
 # Концептуальный внешний вид
 <img src="https://github.com/RareMashiro/graduateProject/blob/master/images/parsingPage.png"/>
