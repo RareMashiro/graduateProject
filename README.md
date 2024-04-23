@@ -15,4 +15,4 @@
 - Postgresql
 - Node.js
 # Концептуальный внешний вид
-img src="https://github.com/RareMashiro/graduateProject/blob/master/images/parsingPage.png"/>
+<img src="https://github.com/RareMashiro/graduateProject/blob/master/images/parsingPage.png"/>
