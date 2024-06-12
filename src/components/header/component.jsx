@@ -5,7 +5,7 @@ import styles from './styles.module.scss';
 export const Header = () => {
     return (
         <div className={styles.header}>
-            <span className={styles.headTitle}>Header section</span>
+            <span className={styles.headTitle}>Morphologic</span>
             <div className={styles.headItems}>
                 <div className={styles.headNav}>
                     <NavLink to={'/home'}>

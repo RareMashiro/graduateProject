@@ -1,3 +1,90 @@
 .mainPage {
     min-height: 87.5vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 234, 234);
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+
+.mainPage > * + * {
+    margin-top: 0.75em;
+}
+
+.description {
+    flex: 1;
+    border-radius: 0.3em;
+    background-color: rgb(190, 57, 248);
+}
+
+.guide {
+    flex: 1;
+    border-radius: 0.3em;
+    background-color: rgb(198, 239, 198);
+}
+
+.headerOne {
+    margin: 0;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerOne > div {
+    margin: 0;
+    background-color: gold;
+    padding: 0.25em 0.5em;
+    border-radius: 0.3em;
+}
+
+.logoBorder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    border-radius: 0.3em;
+    width: 27.5em;
+    height: 15em;
+}
+
+.textContainer {
+    margin: 0;
+    padding: 1em 20%;
+    max-width: 60%;
+}
+
+.textOne {
+    margin: 0;
+    text-align: justify;
+    font-size: 1.5em;
+    background-color: rgb(234, 234, 234);
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
+
+.headerTwo {
+    margin: 0;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerTwo > div {
+    margin: 0;
+    background-color: rgb(255, 108, 138);
+    padding: 0;
+    padding: 0.25em 0.5em;
+    border-radius: 0.3em;
+}
+
+.textTwo {
+    margin: 0;
+    // padding: 2em 20%;
+    // max-width: 60%;
+    text-align: justify;
+    font-size: 1.5em;
+    background-color: gold;
+    border-radius: 0.3em;
+    padding: 0.5em;
 }

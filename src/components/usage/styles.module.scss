@@ -1,4 +1,4 @@
-.parsing {
+.usage {
     box-sizing: inherit;
     flex: 1;
     background-color: rgb(198, 239, 198);
@@ -6,7 +6,7 @@
     padding: 0.5em;
 }
 
-.parsing > * + * {
+.usage > * + * {
     margin-top: 0.5em;
 }
 

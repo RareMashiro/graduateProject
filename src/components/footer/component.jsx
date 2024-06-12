@@ -2,6 +2,6 @@ import styles from './styles.module.scss';
 
 export const Footer = () => {
     return (
-        <div className={styles.footer}>Footer section</div>
+        <div className={styles.footer}>Morphologic</div>
     )
 }

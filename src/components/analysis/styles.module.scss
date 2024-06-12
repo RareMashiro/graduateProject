@@ -1,12 +1,12 @@
-.parsing {
+.analysis {
     box-sizing: inherit;
-    flex: 1;
-    background-color: rgb(198, 239, 198);
-    border-radius: 0.3em;
     padding: 0.5em;
+    flex: 1;
+    background-color: rgb(255, 108, 138);
+    border-radius: 0.3em;
 }
 
-.parsing > * + * {
+.analysis > * + * {
     margin-top: 0.5em;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .header > div {
-    background-color: rgb(255, 108, 138);
     border-radius: 0.3em;
+    background-color: rgb(198, 239, 198);
     padding: 0.25em 0.5em;
 }
