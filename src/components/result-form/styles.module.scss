@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    margin: auto;
+    max-width: 50%;
+}
+
+.textArea {
+    border-radius: 0.3em;
+    min-height: 19.5em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0.15em 0.25em;
+    resize: none;
+}
+
+.textArea::placeholder {
+    color: lightgray;
+}

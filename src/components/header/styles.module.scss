@@ -21,3 +21,11 @@
 .headNav > * + * {
     margin-left: 0.75em;
 }
+
+.admin {
+    display: flex;
+}
+
+.admin > * + * {
+    margin-left: 0.5em;
+}

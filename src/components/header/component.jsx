@@ -19,9 +19,16 @@ export const Header = () => {
                     <NavLink to={'/database'}>
                         <Button title='DATABASE' type='database'/>
                     </NavLink>
+
+                    <NavLink to={'/check'}>
+                        <Button title='CHECK' type='check'/>
+                    </NavLink>
                 </div>
-                <div>
-                    <Button title='LOGIN' type='login'/>
+                <div className={styles.admin}>
+                    <span>Администратор</span>
+                    <div>
+                        <Button title='LOGOUT' type='login'/>
+                    </div>
                 </div>
             </div>
         </div>

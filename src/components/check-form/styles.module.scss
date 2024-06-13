@@ -1,0 +1,30 @@
+.checkArea {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(190, 57, 248);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    max-width: 50%;
+    margin: 0.5em auto;
+    min-height: 50vh;
+}
+
+.field {
+    box-sizing: inherit;
+    background-color: white;
+    min-height: 50vh;
+    overflow: auto;
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.list > * + * {
+    margin-top: 0.5em;
+}
